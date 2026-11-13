@@ -1,10 +1,10 @@
 {
-  "name": "claude-show-image",
-  "description": "show-image: Claude shows you images inline in your terminal.",
+  "name": "claude-inline-images",
+  "description": "inline-images: Claude shows you images inline in your terminal.",
   "owner": { "name": "Alex Reardon", "url": "https://github.com/alexreardon" },
   "plugins": [
     {
-      "name": "show-image",
+      "name": "inline-images",
       "source": "./",
       "description": "Gives Claude a show_image tool that draws images inline in the terminal."
     }

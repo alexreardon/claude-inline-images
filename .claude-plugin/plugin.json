@@ -1,9 +1,9 @@
 {
-  "name": "show-image",
+  "name": "inline-images",
   "version": "0.1.0",
   "description": "Gives Claude a show_image tool that draws images inline in the terminal (Ghostty, kitty, iTerm2 3.5+).",
   "author": { "name": "Alex Reardon", "url": "https://github.com/alexreardon" },
-  "homepage": "https://github.com/alexreardon/claude-show-image",
-  "repository": "https://github.com/alexreardon/claude-show-image",
+  "homepage": "https://github.com/alexreardon/claude-inline-images",
+  "repository": "https://github.com/alexreardon/claude-inline-images",
   "license": "MIT"
 }

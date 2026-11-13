@@ -2,7 +2,7 @@ import { expect, test } from 'claude-code/testing'
 
 import { CHART_PNG } from './chart-png'
 
-const TOOL = 'mcp__show-image__show_image'
+const TOOL = 'mcp__inline-images__show_image'
 
 const PNG = CHART_PNG
 
@@ -57,7 +57,7 @@ test('a missing file is refused with a reason', async ($, on) => {
 })
 
 const ROW = {
-  plugin: 'show-image',
+  plugin: 'inline-images',
   component: 'ToolUse',
   requestId: 'tu-1',
   viewport: { columns: 120, rows: 40, isFullscreen: true },
@@ -113,7 +113,7 @@ test('other surfaces get the words in place of the picture', async ($, on) => {
 })
 
 const RESULT = {
-  plugin: 'show-image',
+  plugin: 'inline-images',
   component: 'ToolResult',
   requestId: 'tu-1',
   props: {

@@ -1,8 +1,8 @@
 import type { EngineInterface, Register, RenderViewport } from 'claude-code'
 
-// The model calls it as `mcp__<plugin>__<name>`; the plugin is "show-image".
+// The model calls it as `mcp__<plugin>__<name>`; the plugin is "inline-images".
 const NAME = 'show_image'
-const TOOL = 'mcp__show-image__show_image'
+const TOOL = 'mcp__inline-images__show_image'
 
 // What a terminal can take as inline bytes (2 MiB decoded) and as a side.
 const MAX_BYTES = 2 * 1024 * 1024
@@ -333,7 +333,7 @@ async function absolute($: EngineInterface, path: string): Promise<string> {
 
 async function cacheDirOf($: EngineInterface): Promise<string> {
   const tmp = (await $.env.get('TMPDIR')) ?? '/tmp'
-  const dir = `${tmp.replace(/\/$/, '')}/claude-show-image`
+  const dir = `${tmp.replace(/\/$/, '')}/claude-inline-images`
   await $.process.run(['mkdir', '-p', dir])
 
   return dir
