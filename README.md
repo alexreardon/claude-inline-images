@@ -6,7 +6,7 @@ _A [Claude Code](https://claude.com/claude-code) plugin that lets you show image
 
 _Images, right inside your Claude Code terminal_
 
-<img src="assets/hero.png" width="600px" alt="An image drawn by inline-images inside a Claude Code terminal session">
+<img src="assets/demo.png" width="600px" alt="An image drawn by inline-images inside a Claude Code terminal session">
 
 </div>
 
