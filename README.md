@@ -1,6 +1,8 @@
 <div align="center">
 
-# show-image 🖼
+# claud-show-image 💻🖼️
+
+_A [Claude Code](https://claude.com/claude-code) plugin that lets you show images inline in your terminal_
 
 _Images, right inside your Claude Code terminal_
 
@@ -9,14 +11,6 @@ _Images, right inside your Claude Code terminal_
 </div>
 
 <br/>
-
-## About
-
-`show-image` is a [Claude Code](https://claude.com/claude-code) plugin that lets Claude show you images inline in your terminal. Ask Claude to show you a screenshot, a chart it just made, or a design mock, and it will draw it right there in the conversation.
-
-```
-> show me ~/Desktop/screenshot.png
-```
 
 ## Installation
 
@@ -86,3 +80,5 @@ claude plugin test .
 ## Credits
 
 Made with love by [Alex Reardon](https://twitter.com/alexandereardon)
+
+Inspired by [Pi](https://github.com/earendil-works/pi), a coding agent that draws images right inside your terminal. `show-image` borrows its sizing defaults too 🙏
