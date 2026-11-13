@@ -79,6 +79,5 @@ claude plugin test .
 
 ## Credits
 
-Made with love by [Alex Reardon](https://twitter.com/alexandereardon)
-
-Inspired by [Pi](https://github.com/earendil-works/pi), a coding agent that draws images right inside your terminal. `show-image` borrows its sizing defaults too 🙏
+- Inspired by [Pi](https://github.com/earendil-works/pi), and we its sizing defaults too 🙏
+- Poked into existence by [Alex Reardon](https://twitter.com/alexandereardon)
